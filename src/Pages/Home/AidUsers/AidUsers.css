@@ -1,0 +1,14 @@
+.aid-users {
+    max-width: 1250px;
+    margin: 70px auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.aid-users > div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+}

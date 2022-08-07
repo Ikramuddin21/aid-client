@@ -1,0 +1,48 @@
+.hero {
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 35px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.hero form {
+    margin-top: 25px;
+}
+
+.hero form input,
+.hero form button {
+  font-size: 16px;
+}
+
+.hero form input {
+    width: 27%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.hero form input:focus {
+    outline: 1px solid lightgray;
+
+}
+
+.hero form button {
+    height: 41px;
+    padding: 0 15px;
+    color: white;
+    background-color: #0077ff;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
