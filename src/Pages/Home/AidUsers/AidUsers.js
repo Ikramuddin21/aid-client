@@ -16,6 +16,7 @@ const AidUsers = () => {
         <div className="aid-users">
             <div>
                 {
+                    !users.length ? <h1>Loading...</h1> :
                     users.map(user => <AidUser key={user._id} user={user}/>)
                 }
             </div>

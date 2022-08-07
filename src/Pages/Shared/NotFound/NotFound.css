@@ -1,0 +1,13 @@
+.not-found {
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-found h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}

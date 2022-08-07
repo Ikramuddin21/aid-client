@@ -1,0 +1,52 @@
+.register-volunteer {
+    max-width: 1250px;
+    margin: 90px auto;
+    padding: 0 20px;
+}
+
+.register-volunteer > div {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.register-volunteer h2 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.register-volunteer form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.register-volunteer input {
+    width: 90%;
+    height: 50px;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 15px;
+    background: none;
+    color: gray;
+    border: none;
+    border-bottom: 1px solid gray ;
+}
+
+.register-volunteer input:focus {
+    outline: none;
+}
+
+.register-volunteer button {
+    width: 91%;
+    height: 50px;
+    margin: 30px auto 10px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    background: #0077ff;
+}

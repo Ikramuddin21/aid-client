@@ -1,0 +1,37 @@
+.login {
+    margin-top: 90px;
+    padding: 20px;
+}
+
+.login > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 400px;
+    height: 280px;
+    margin: 0 auto;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.google-login-btn {
+    width: 85%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 100px;
+}
+
+.google-icon {
+    width: 40px;
+}
+
+.google-login-btn span {
+    margin-left: 40px;
+}

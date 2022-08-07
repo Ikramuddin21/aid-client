@@ -1,15 +1,23 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import AidUsers from './Pages/Home/AidUsers/AidUsers';
-import Hero from './Pages/Home/Hero/Hero';
+import Home from './Pages/Home/Home/Home';
+import Login from './Pages/Login/Login';
+import RegisterVolunteer from './Pages/RegisterVolunteer/RegisterVolunteer';
 import Header from './Pages/Shared/Header/Header';
+import NotFound from './Pages/Shared/NotFound/NotFound';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <Hero />
-      <AidUsers />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register-volunteer/:title" element={<RegisterVolunteer />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </>
   );
 }
 
