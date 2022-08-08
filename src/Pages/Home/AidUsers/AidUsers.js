@@ -8,7 +8,7 @@ const AidUsers = () => {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        axios.get("http://localhost:5000/aidUsers")
+        axios.get("https://guarded-oasis-25205.herokuapp.com/aidUsers")
             .then(res => setUsers(res.data))
     }, []);
 

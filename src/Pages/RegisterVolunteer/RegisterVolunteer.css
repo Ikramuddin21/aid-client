@@ -50,3 +50,7 @@
     color: white;
     background: #0077ff;
 }
+
+.success-register-btn {
+    background-color: rgb(18, 175, 18) !important;
+}
